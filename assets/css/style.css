@@ -21,7 +21,7 @@ body
 {
     width: 100vw;
     height: 100vh;
-    background: url('../img/glitch.gif') no-repeat #000000;
+    background: url('../img/glitch.gif') no-repeat #010300;
     background-size: cover;
     position: relative;
 }
@@ -82,6 +82,8 @@ body
 
 
 
+/*          GALLERY         */
+
 .grid
 {
     position: absolute;
@@ -92,11 +94,68 @@ body
 
         .grid .placeHolder
         {
+            position: relative;
             display: inline-block;
             width: 20vw;
             height: 50vh;
-            background: #ffffff;
+            background: #a0a0a01f;
             margin: 5vh 3vw;
+        }
+
+        .grid .theme
+        {
+            margin-bottom: 10%;
+        }
+        
+        .grid .theme p
+        {
+            font-size: 0.7em;
+            position: absolute;
+            top: 65%;
+            left: -10%;
+        }
+
+        .grid .illustration .placeHolder.id1
+        {
+            background: url('../img/Nikita_poster.jpg') no-repeat center/77%;
+        }
+
+        .grid .illustration .placeHolder.id2
+        {
+            background: url('../img/smk.jpg') no-repeat center/120%;
+        }
+
+        .grid .illustration .placeHolder.id3
+        {
+            background: url('../img/112.jpg') no-repeat center/99%;
+        }
+
+
+
+        .grid .web .placeHolder.id1
+        {
+            background: url('../img/spaceXproject.png') no-repeat center/180%;
+        }
+        .grid .web .placeHolder.id2
+        {
+            background: url('../img/canvas.jpg') no-repeat center/90%;
+        }
+
+        .grid .web .placeHolder.id3
+        {
+            background: url('../img/guess_who.jpg') no-repeat center/200%;
+        }
+
+
+
+        .grid .design .placeHolder.id1
+        {
+            background: url('../img/nikeHyperadapt.jpg') no-repeat center/84%;
+        }
+
+        .grid .design .placeHolder.id2
+        {
+            background: url('../img/inrocks_artist.jpg') no-repeat center/100%;
         }
 
         
@@ -106,7 +165,7 @@ body
 
 
 
-/* lines  */
+/* DECORATIVES LINES  */
 
 .lines
 {
@@ -118,7 +177,7 @@ body
 .lines.id1
 {
     width: 0.1vw;
-    height: 300vh;
+    height: 350vh;
     top: 0%;
     left: 9%;
 }
@@ -126,7 +185,7 @@ body
 .lines.id2
 {
     width: 0.1vw;
-    height: 300vh;
+    height: 350vh;
     top: 0%;
     left: 91%;
 }
