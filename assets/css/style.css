@@ -10,6 +10,7 @@ body
     height: 100vh;
     background: url('../img/glitch.gif') no-repeat #010300;
     background-size: cover;
+    /* background-attachment: fixed; */
     position: relative;
 }
 
@@ -92,6 +93,8 @@ h1
 
 
 
+
+
 /**************************/
 /*          BIO         */
 /**************************/
@@ -117,6 +120,8 @@ h1
             top: -100%;
             left: 40vw;
             width: 20vw;
+            
+            font-size: 0.3em;
         }
 
                 .resume .bioPic .portrait
@@ -188,7 +193,7 @@ h1
 
         .grid .illustration .placeHolder.id1
         {
-            background: url('../img/Nikita_poster.jpg') no-repeat center/77%;
+            background: url('../img/nikitaPoster.jpg') no-repeat center/77%;
         }
 
         .grid .illustration .placeHolder.id2
